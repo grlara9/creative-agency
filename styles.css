@@ -1,0 +1,51 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    line-height: 1.4;
+    color: #000;
+}
+
+nav{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding: 16px;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Hamburger menu*/
+
+.hamburger-menu{
+    cursor: pointer;
+    background: none;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    border: none;
+    z-index: 10;
+    transition: all 0.25s;
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom{
+  position: absolute;
+  top:0;
+  bottom: 0;
+  width: 25px;
+  height: 2px;
+  background: black;
+  transform: rotate(0);
+  transition: all 0.5s;
+
+}
